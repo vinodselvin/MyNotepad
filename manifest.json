@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+"name": "My Notepad",
+"description": "My Notepad is a web based Application, this can be used a text editor to store important texts, and it can be accessed only on the same browser",
+"version": "1.1",
+"icons": {
+"128": "128.png"
+},
+"app": {
+"urls": [
+"http://mynotepad.netai.net/my-notepad/"
+],
+"launch": {
+"web_url": "http://mynotepad.netai.net/my-notepad/"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications"
+]
+}
