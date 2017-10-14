@@ -52,7 +52,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
 $db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['database'] = 'my_site';
 
 $calledclass =  get_called_class();
 if($calledclass == 'PHPActiveRecord') $db['default']['dbdriver'] = 'mysql';
